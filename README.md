@@ -1,5 +1,6 @@
 # RemoteWake
 
+*(anciennement Serv_ktin)*
 
 **RemoteWake** est une application web permettant de démarrer et surveiller un PC à distance via **Wake-on-LAN (WoL)**, hébergée sur un **Raspberry Pi** et accessible de n'importe où grâce à un **VPN Tailscale**. Une fois le PC démarré, l'utilisateur peut s'y connecter en **RDP** pour travailler dessus à distance.
 
@@ -17,7 +18,7 @@ Pouvoir, depuis n'importe quel endroit :
 ## Architecture
 
 ```
-[ Appareil mobile, n'importe où connecté à internet ]
+[ Toi, n'importe où ]
         │  (Tailscale VPN)
         ▼
 [ Raspberry Pi ] ── héberge l'app Flask (Serv_ktin)
